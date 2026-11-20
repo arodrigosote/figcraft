@@ -1,0 +1,18 @@
+{
+  "app": "figcraft",
+  "name": "ICASYS Interfaces",
+  "slug": "interfaces",
+  "upstream_name": "FigCraft",
+  "upstream_base": "4acc293c2ec941ac1400837ee7e3ab51780399f8",
+  "owner": "arodrigosote",
+  "es_ui": true,
+  "deb_section": "graphics",
+  "cli": "figcraft-cli",
+  "cli_project_ext": "figcraft",
+  "mcp": {
+    "headless": "mcp",
+    "attach": "mcp --attach 9876",
+    "auth": "none",
+    "project": ""
+  }
+}
